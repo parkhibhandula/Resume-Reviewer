@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body, #root{
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #f8fafc;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card Styling */
+.card {
+  transition: all 0.3s ease-in-out;
+  border-radius: 16px;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Premium Inputs */
+.premium-input {
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #f9fafb;
+  transition: all 0.2s ease-in-out;
+}
+
+.premium-input:focus {
+  border-color: #1e293b;
+  box-shadow: 0px 0px 8px rgba(30, 41, 59, 0.2);
+}
+
+/* Score Circle */
+.score-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #f1f5f9;
+  border: 4px solid #1e293b;
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Skill Badges */
+.badge-container {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.premium-badge {
+  background-color: #e2e8f0;
+  color: #1e293b;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.missing-badge {
+  background-color: #fee2e2;
+  color: #991b1b;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Suggestion Box */
+.suggestion-box {
+  background-color: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  color: #475569;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.row{
+  margin: 1%;
+}
