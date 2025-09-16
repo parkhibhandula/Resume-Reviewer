@@ -67,7 +67,8 @@ ${resumeText}
 
     console.log("Sending Prompt to Backend:", prompt);
 
-    const response = await axios.post("http://localhost:3000/ai/getReview", { prompt });
+    const response = await axios.post("https://resume-reviewer-3ep7.onrender.com/ai/getReview
+", { prompt });
 
     console.log("API Response:", response.data);
  let rawData = response.data;
